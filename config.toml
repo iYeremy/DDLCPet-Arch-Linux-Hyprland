@@ -1,0 +1,45 @@
+[window]
+size = [162, 162] #192x192
+bottom_offset = 10
+
+[movement]
+speed = 2.2
+update_rate_ms = 16
+state_interval_ms = 4200  # usado para futuros estados contextuales
+walk_speed_range = [0.6, 2.5]
+walk_interval_ms = [1800, 4200]
+turn_probability = 0.012
+turn_cooldown_ms = 1200
+bob_amplitude = 4
+bob_speed = 0.25
+
+[physics]
+gravity = 0.35
+hop_impulse = 5.6
+hover_impulse = 5.6
+hop_interval_ms = [700, 2200]
+hover_cooldown_ms = 900
+ground_drag = 0.12
+air_drag = 0.02
+bounce_damping = 0.4
+launch_multiplier = 0.02
+max_speed_x = 7.5
+max_speed_y = 14.0
+
+[sprites]
+base_path = "assets"
+
+[sprites.states.idle]
+file = "idle.png"
+frames = 1
+fps = 6
+
+[sprites.states.walk]
+file = "walk.png"
+frames = 1
+fps = 10
+
+[sprites.states.jump]
+file = "walk.png"
+frames = 1
+fps = 10
