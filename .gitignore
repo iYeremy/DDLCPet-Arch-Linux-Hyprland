@@ -20,6 +20,8 @@ __pycache__/
 *.temp
 *.bak
 
+# Inspiracion del proyecto en JavaScript
+json_test_paginainspiracion/
 # Archivos de dependencias o instalación
 *.egg
 *.egg-info/
