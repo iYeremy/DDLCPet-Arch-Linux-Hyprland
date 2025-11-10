@@ -68,16 +68,6 @@ Todo lo importante se ajusta sin tocar código. Los bloques principales:
 
 Esto permite añadir nuevos estados (p. ej. `sleep`, `jump`, `menu`) simplemente declarando sprites adicionales y luego referenciándolos desde `core.py`.
 
-### Sprites del atlas original de GameMaker
-
-Para reutilizar los personajes del proyecto original, añadí `tools/extract_doki_sprites.py`. Ejecuta:
-
-```bash
-python tools/extract_doki_sprites.py
-```
-
-Esto vuelve a cortar los recuadros indicados del atlas `json_test_paginainspiracion/Doki Doki_texture_0.png` y sobrescribe `assets/idle.png` / `assets/walk.png`. Allí también puedes registrar nuevas coordenadas si quieres más personajes.
-
 ## Comportamiento
 
 -   El pet vive en un pequeño motor de física 2D (gravedad + rebotes). `idle` y `walk` usan la misma sprite, mientras que `jump` se dispara al despegar.
