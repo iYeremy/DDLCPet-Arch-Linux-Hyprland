@@ -1,0 +1,49 @@
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+env.old/
+envs/
+*.env
+
+# Bytecode y cachés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Archivos de dependencias o instalación
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.eggs/
+
+# Archivos de prueba y cobertura
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Archivos de configuración de herramientas
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Archivos del sistema o IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
