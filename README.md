@@ -1,5 +1,6 @@
-# DeskPet 🐾
-
+# DDLCPet :)
+> [!WARNING]
+> El proyecto sigue en desarrollo, no se ha probado en otro dispositivo aparte del mio, estoy trabajando en eso para hacer el codigo mas portable y agregarle un menu CLI para tener mas de una doki al mismo tiempo  
 Mascota de escritorio escrita en Python + PyQt6 que flota sobre Hyprland/Wayland/X11 como una ventana transparente y siempre permanece sobre el resto de aplicaciones. El objetivo es tener un personaje animado, configurable y fácil de extender que pueda acompañarte mientras trabajas.
 
 ## Estado actual
